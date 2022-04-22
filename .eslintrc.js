@@ -4,6 +4,9 @@ module.exports = {
     browser: true,
     node: true,
     es2021: true,
+    // error 'defineProps' is not defined no-undef: 或者配置globals
+    // The Follow config only works with eslint-plugin-vue v8.0.0+
+    'vue/setup-compiler-macros': true,
   },
   parser: 'vue-eslint-parser',
   extends: [
@@ -144,10 +147,13 @@ module.exports = {
     'no-case-declarations': 'warn',
     'no-async-promise-executor': 'warn',
   },
+  /*
+  // The Follow configs works with eslint-plugin-vue v7.x.x
   globals: {
     defineProps: 'readonly',
     defineEmits: 'readonly',
     defineExpose: 'readonly',
     withDefaults: 'readonly',
   },
+  */
 };
