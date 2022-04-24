@@ -30,7 +30,8 @@
     "stylelint": "^14.7.1",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-scss": "^4.2.0",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
