@@ -6,6 +6,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'index',
     component: () => import('@/views/home-index.vue'),
   },
+  {
+    path: '/pinia-test',
+    name: 'pinia',
+    component: () => import('@/views/pinia-test.vue'),
+  },
 ];
 
 const router = createRouter({
