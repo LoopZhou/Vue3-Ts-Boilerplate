@@ -16,6 +16,6 @@
       "@/*": ["src/*"],
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.jsx"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.jsx", "src/views/raytracer/task.worker.ts", "src/views/raytracer/task2.worker.js"],
   "references": [{ "path": "./tsconfig.node.json" }],
 }
