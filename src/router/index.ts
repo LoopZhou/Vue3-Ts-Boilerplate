@@ -16,6 +16,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'tsx',
     component: () => import('@/views/tsx-test'),
   },
+  {
+    path: '/web-worker',
+    name: 'worker',
+    component: () => import('@/views/web-worker/web-worker.vue'),
+  },
 ];
 
 const router = createRouter({
